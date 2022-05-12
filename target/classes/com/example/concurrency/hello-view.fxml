@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.concurrency.HelloController">
+   <children>
+      <HBox fx:id="conTimer" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="200.0" text="Label">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Niislel" />
+            <ProgressBar fx:id="pbM1" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Arkhangai" />
+            <ProgressBar fx:id="pbM2" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Bayan-Ulgii" />
+            <ProgressBar fx:id="pbM3" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Bayankhongor" />
+            <ProgressBar fx:id="pbM4" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Bulgan" />
+            <ProgressBar fx:id="pbM5" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Govi-Altai" />
+            <ProgressBar fx:id="pbM6" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Govisumber" />
+            <ProgressBar fx:id="pbM7" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Darkhan-Uul" />
+            <ProgressBar fx:id="pbM8" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Dornogovi" />
+            <ProgressBar fx:id="pbM9" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Dornod" />
+            <ProgressBar fx:id="pbM10" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Dundgove" />
+            <ProgressBar fx:id="pbM11" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Zavkhan" />
+            <ProgressBar fx:id="pbM12" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Orkhon" />
+            <ProgressBar fx:id="pbM13" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Uvurkhangai" />
+            <ProgressBar fx:id="pbM14" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Umnugovi" />
+            <ProgressBar fx:id="pbM15" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Sukhbaatar" />
+            <ProgressBar fx:id="pbM16" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Selenge" />
+            <ProgressBar fx:id="pbM17" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Tuv" />
+            <ProgressBar fx:id="pbM18" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Uvs" />
+            <ProgressBar fx:id="pbM19" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Khovd" />
+            <ProgressBar fx:id="pbM20" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Khuvsgul" />
+            <ProgressBar fx:id="pbM21" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Khentii" />
+            <ProgressBar fx:id="pbM22" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+      <HBox fx:id="conM0" prefHeight="40.0" prefWidth="200.0">
+         <children>
+            <Label prefWidth="100.0" text="Uls" />
+            <ProgressBar fx:id="pbM0" prefWidth="100.0" progress="0.0" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
