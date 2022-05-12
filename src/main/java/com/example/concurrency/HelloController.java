@@ -134,7 +134,7 @@ public class HelloController {
                         updateProgress(i, max);
 
                         try {
-                            Thread.sleep(r.nextInt(1));
+                            Thread.sleep(r.nextInt(4));
                         } catch (InterruptedException interrupted) {
                             if (isCancelled()) {
                                 updateMessage("Cancelled");
@@ -166,13 +166,15 @@ public class HelloController {
                 double progress = 0;
                 double progressValue = 0;
                 while (progressValue < 1 && !isCancelled()) {
+                    progress = 0;
                     for (ProgressBar bar : arrayListBars) {
                         if (bar.getProgress() == -1) {
                             break;
                         }
                         progress = progress + bar.getProgress();
                     }
-                    progressValue = progress / arrayListBars.size();                    updateProgress(progressValue, total);
+                    progressValue = progress / arrayListBars.size();
+                    updateProgress(progressValue, 1);
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException interrupted) {
