@@ -10,7 +10,7 @@
    <children>
       <HBox fx:id="conTimer" prefHeight="70.0" prefWidth="200.0">
          <children>
-            <Label alignment="CENTER" prefHeight="70.0" prefWidth="200.0" text="Label">
+            <Label fx:id="lblTimer" alignment="CENTER" prefHeight="70.0" prefWidth="200.0" text="Label">
                <font>
                   <Font size="26.0" />
                </font>

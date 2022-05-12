@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         stage.show();
 
         HelloController controller = fxmlLoader.getController();
-        controller.init();
+        controller.init(stage);
     }
 
 //    for (Node node : parent.getChildrenUnmodifiable()) {
